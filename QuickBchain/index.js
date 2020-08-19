@@ -9,6 +9,8 @@ class Block {
       this.lastHash = lastHash;
     }
 }
-
-const fooBlock = new Block('foo-data', 'foo-hash', 'foo-lastHash');
-console.log(fooBlock);
+class Blockchain {
+    constructor () {
+        this.chain = [];
+    }
+}
