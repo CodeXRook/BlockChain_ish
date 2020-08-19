@@ -11,6 +11,9 @@ class Block {
 }
 class Blockchain {
     constructor () {
-        this.chain = [];
+        const genesis = new Block('gen-data', 'gen-hash', 'gen-lastHash');
+
+
+        this.chain = [genesis];
     }
 }
