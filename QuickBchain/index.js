@@ -22,6 +22,9 @@ class Blockchain {
 
         const hash = lightningHash(data + lastHash);
 
+        const block = new Block(data, hash, lastHash);
+
         
+
     }
 }
