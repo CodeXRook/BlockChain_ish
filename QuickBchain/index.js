@@ -1,3 +1,5 @@
+const lightningHash = () => {}
+
 class Block {
     constructor(data, hash, lastHash) {
       this.data = data;
