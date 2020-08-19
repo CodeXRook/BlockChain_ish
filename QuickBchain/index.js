@@ -1,4 +1,6 @@
-const lightningHash = () => {}
+const lightningHash = (data) => {
+    return data + '*';
+}
 
 class Block {
     constructor(data, hash, lastHash) {
