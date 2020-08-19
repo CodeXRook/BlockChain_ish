@@ -16,4 +16,8 @@ class Blockchain {
 
         this.chain = [genesis];
     }
+
+    addBlock(data){
+        
+    }
 }
