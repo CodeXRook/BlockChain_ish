@@ -24,7 +24,9 @@ class Blockchain {
 
         const block = new Block(data, hash, lastHash);
 
-        
+        this.chain.push(block);
 
     }
 }
+
+const fooBlockchain = new Blockchain();
