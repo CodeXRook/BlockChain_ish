@@ -7,3 +7,4 @@ class Block {
 }
 
 const fooBlock = new Block('foo-data', 'foo-hash', 'foo-lastHash');
+console.log(fooBlock);
