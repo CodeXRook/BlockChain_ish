@@ -18,6 +18,6 @@ class Blockchain {
     }
 
     addBlock(data){
-        
+        const lastHash = this.chain[this.chain.length-1]
     }
 }
